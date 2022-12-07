@@ -1,0 +1,393 @@
+@media screen and ( max-width: 1200px )
+    nav
+        .menu
+            &_item
+                padding-left: 30px
+            &_item:first-child
+                margin-left: 90px
+            &_link
+                font-size: 15px
+
+        .soc
+            &_icons
+                padding-right: 35px
+
+            &_icons:last-child
+                margin-right: 0
+                margin-right: 100px
+
+    .subheader
+        &_logo
+            img
+                width: 100%
+        &_phon
+            line-height: 24px
+            font-size: 24px
+        &_btn
+            width: 160px
+            height: 40px
+            font-size: 16px
+
+    .promo
+        h1
+            font-size: 58px
+        &_subheader
+            font-size: 40px
+            line-height: 59px
+            margin-top: 45px
+        &_btn
+            width: 184px
+            height: 40px
+            font-size: 16px
+
+    .benefits
+        &_question
+            font-size: 25px
+            padding: 5px 0
+        &_text
+            font-size: 22px
+
+    .gallery
+        &_img
+            width: 100%
+            height: 296px
+
+@media screen and ( max-width: 1440px )
+    nav
+        .menu
+            &_item
+                padding-left: 30px
+            &_item:first-child
+                margin-left: 90px
+
+@media screen and ( max-width: 1024px )
+    nav
+        .soc
+            &_icons:last-child
+                margin-right: 54px
+
+    .subheader
+        &_text
+            margin-top: 4px
+        &_btn
+            width: 160px
+            height: 40px
+            font-size: 16px
+            margin-top: 10px
+
+@media screen and ( max-width: 991px )
+
+    nav
+        .menu
+            &_item
+                padding-left: 20px
+            &_item:first-child
+                margin-left: 10px
+            &_link
+                font-size: 15px
+
+        .soc
+            &_icons
+                padding-right: 35px
+
+            &_icons:last-child
+                margin-right: 0
+                margin-right: 6px
+
+    .subheader
+        height: 65px
+        &_logo
+            img
+                width: 100%
+
+        &_text
+            margin-top: 5px
+            font-size: 13px
+        &_phon
+            font-size: 20px
+        &_btn
+            width: 140px
+            height: 33px
+            font-size: 13px
+            margin-top: 12px
+            margin-left: 57px
+
+    .promo
+        h1
+            font-size: 46px
+        h2
+            font-size: 35px
+            line-height: 40px
+            margin-top: 45px
+
+    .benefits
+        &_question
+            font-size: 20px
+            padding: 5px 0
+        &_text
+            font-size: 20px
+        &_btn
+            width: 155px
+            height: 33px
+            font-size: 13px
+
+    .gallery
+        &_img
+            width: 100%
+            height: 216px
+
+    .footer
+        font-size: 13px
+
+@media screen and ( max-width: 767px )
+
+    .nav_box
+        .soc
+            display: none
+
+    .menu
+        position: fixed
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        top: 0
+        left: -100%
+        width: 50%
+        height: 100vh
+        padding: 20px 15px
+        background-color: rgba(0,0,0, .8)
+        transition: 0.6s all
+        &_active
+            left: 0
+
+        &_item
+            padding-right: 0
+            border: none
+            margin: 10px 0
+            a
+                color: #ffffff
+
+        &_link
+            font-style: 20px
+    nav
+        .hamburger
+            display: block
+            position: absolute
+            right: 10px
+            top: 25px
+            transform: translateY(-50%)
+            width: 25px
+            height: 12px
+            span
+                display: block
+                height: 2px
+                width: 100%
+                background-color: #fff
+                margin-bottom: 2px
+                transition: 0.5s all
+            &_active
+                span
+                    margin-bottom: -2px
+                    &:nth-child(1)
+                        transform: translateY(3px) rotate(-45deg)
+                    &:nth-child(2)
+                        display: none
+                    &:nth-child(3)
+                        transform: translateY(3px) rotate(45deg)
+
+    .subheader
+        &_logo
+            img
+                padding-top: 3px
+                width: 100%
+        &_btn
+            width: 142px
+            height: 27px
+            font-size: 14px
+            margin-top: 13px
+            margin-left: 236px
+        &_phon
+            display: block
+            margin-top: 10px
+            line-height: 0
+
+    .benefits
+        &_question
+            font-size: 18px
+            padding: 0
+            max-width: 240px
+        &_text
+            font-size: 16px
+
+    .xs-hidden
+        display: none
+    .xs-visible
+        display: block
+        text-align: right
+
+    .footer
+
+@media screen and ( max-width: 576px )
+
+    .subheader
+        &_logo
+            img
+                padding-top: 4px
+                width: 100%
+        &_btn
+            margin-top: 4px
+            margin-left: 267px
+            width: 118px
+            height: 25px
+            font-size: 13px
+
+        &_phon
+            margin-top: 10px
+            line-height: 11px
+            font-size: 16px
+            text-align: right
+
+    .promo
+        h1
+            font-size: 33px
+        h2
+            font-size: 20px
+            line-height: 26px
+            margin-top: 8px
+            margin-left: 16px
+        &_btn
+            width: 160px
+            height: 30px
+            font-size: 13px
+
+
+@media screen and ( max-width: 425px )
+    .subheader
+        &_logo
+            img
+                padding-top: 6px
+                width: 100%
+        &_btn
+            margin-left: 176px
+        &_phon
+            margin-top: 10px
+            line-height: 11px
+            font-size: 15px
+            margin-right: 5px
+            text-align: right
+    .promo
+        h1
+            font-size: 41px
+            margin-top: 140px
+            line-height: 38px
+        h2
+            font-size: 23px
+            line-height: 28px
+            margin-top: 33px
+            margin-left: 31px
+        &_btn
+            width: 170px
+            height: 36px
+            font-size: 16px
+            margin: 24px
+
+    .benefits
+        &_question
+            font-size: 19px
+            padding: 0
+            max-width: 256px
+        &_text
+            font-size: 16px
+            text-align: left
+            color: #f9f8f8
+            margin-top: 20px
+@media screen and ( max-width: 414px )
+    .subheader
+        &_btn
+            margin-left: 155px
+
+@media screen and ( max-width: 412px )
+    .subheader
+        &_btn
+            margin-left: 152px
+@media screen and ( max-width: 393px )
+    .subheader
+        &_btn
+            margin-left: 139px
+
+
+@media screen and ( max-width: 375px )
+    .subheader
+        &_logo img
+            padding-top: 11px
+
+        &_phon
+            margin-right: 28px
+
+        &_btn
+            margin-top: 7px
+            width: 118px
+            height: 25px
+            font-size: 13px
+            margin-left: 115px
+    .promo
+        h1
+            font-size: 37px
+            margin-top: 140px
+            line-height: 38px
+    .gallery
+        &_img
+            margin: 8px auto
+
+@media screen and ( max-width: 360px )
+    .subheader
+        &_btn
+            margin-left: 91px
+
+@media screen and ( max-width: 320px )
+    .subheader
+        &_logo
+            img
+                padding-top: 4px
+                width: 100%
+        &_phon
+            margin-top: 0px
+            line-height: 0px
+            font-size: 14px
+            margin-right: 1px
+            text-align: right
+        &_btn
+            margin-top: 10px
+            width: 118px
+            height: 25px
+            font-size: 13px
+            // margin-left: 100px
+
+    .promo
+        &_header
+            font-size: 83px
+            font-weight: 1000
+            text-align: start
+            color: #540070
+            line-height: 37px
+            margin: 0
+            margin-top: 126px
+        h1
+            font-size: 37px
+            margin-top: 140px
+            line-height: 38px
+
+        h2
+            font-size: 20px
+            line-height: 26px
+            margin-top: 23px
+            margin-left: 16px
+        &_btn
+            width: 206px
+            height: 40px
+            font-size: 18px
+            margin: 45px
+
+    nav
+        .menu
+            width: 100%

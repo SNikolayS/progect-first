@@ -1,0 +1,26 @@
+@mixin menu_soc
+  display: flex
+  align-items: center
+  margin: 0
+  list-style-type: none
+  li:not(:first-child)
+    margin-left: 31px
+
+@mixin vertical_center
+  display: flex
+  align-items: center
+  justify-content: center
+
+@mixin footer()
+  font-size: 15px
+  font-weight: bold
+  line-height: 1.67
+  text-align: left
+  color: $main-color
+  padding-top: 55px
+  padding-bottom: 55px
+
+@mixin btn_hover()
+  &:hover
+    background-image: none
+    background-color: #c07d26
